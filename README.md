@@ -1,5 +1,5 @@
 # Love Calculator
-It is not a real calculator. It just gives a random number. Better read Privacy Policy before using.
+It is not a real calculator. It just gives a random number between 60 to 100. Better read Privacy Policy before using.
 ## Privacy Policy 
 - Your data is not safe.
 - Any information entered by you in the form is sent to the owner when you click calculate.
