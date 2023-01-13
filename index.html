@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script" rel="stylesheet">
+  
+  <title>Love Calculator</title>
+</head>
+
+<body>
+  
+<div id="containera">
+  Calculation method: Name, Birth, Gender, and Zodiac
+ <form id="my-form" method="POST" action="https://script.google.com/macros/s/AKfycbxCheXZfDCd2DY10eDES6kmwg5KC8AM2b6SzVxAoPuwGM8lszlJ0vptyFlXE-hRZO5_/exec" onsubmit="showb()">
+   <h1 class="firsth1">Love Calculator</h1>
+   
+  <input name="Name" type="text" placeholder="Your Name" id="name" required>
+  
+    <br>
+  
+  <input name="Birth" type="text" placeholder="Your Birth" id="birth" onfocus="(this.type='date')" required>
+  
+    <br>
+  
+  <select name="Gender" id="gender" required>
+    
+    <option value="" disabled selected hidden>Your Gender</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    
+  </select>
+    
+    <br>
+      
+  <input name="Crush" type="text" placeholder="Crush Name" id="crush" required> 
+  
+    <br><br>
+  
+  <input type="checkbox" required>
+  
+  I have read and agree to the 
+  
+  <a href="https://github.com/DevaVicky/love-calculator/blob/master/README.md">Privacy Policy</a>
+  
+    <br><br>
+  
+  <button type="submit" id="butc" >Calculate</button>
+  
+</form>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<p id="madeby">Made by: Bean#2033 (Discord)</p>
+
+</div>
+
+<div id="containerb">
+  
+  <div id="box">
+  <div id="alltext"><h1 class="firsth1">Love Calculator</h1><h1 id="twoboxt"></h1><h1 id="emoji"></h1></div>
+  </div>
+  
+</div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/gh/AssassinAguilar/Alertism/dist/V2.0.0/main.js"></script>
+
+  <script src="script.js"></script>
+  
+</html>
